@@ -1,19 +1,39 @@
 body {
-    background-color: #303134;
-  }
-  .imge, #search {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-  }
-  #search {
-    border-color: #bdc1c6;
-    background-color: #303134;
-    color: white;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-  }
+  background-color: #303134;
+}
+ul{
+ list-style: none;
+ text-align: right;
+}
+
+li {
+display: inline;
+}
+a {
+color: white; 
+}
+.imge, #search {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+#search {
+  border-color: #bdc1c6;
+  background-color: #303134;
+  color: white;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding: 5px;
+}
+.buttons {
+width: 500px;
+margin: 0 auto;
+margin-top: 16px;
+display: block;
+text-align: center;
+}
